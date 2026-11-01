@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Newsletter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Newsletter</h1>
+        </header>
+        <main>
+            <section>
+                <h2>newsletter signup</h2>
+                <form method="post">
+                    <p>
+                        <label for="name">Enter your name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Enter your E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="favorite">favorite language:</label>
+                        <select id="favorite" name="favorite-language" required>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JS</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="agree">I agree to receive news. </label>
+                        <input type="checkbox" id="agree" name="agree" required>
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </section> 
+        </main>
+    </body>
+</html>
