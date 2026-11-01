@@ -1,7 +1,14 @@
-h1{
-    color: rgb(55, 255, 0);
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
 }
 
-body{
-    font-family: Arial, sans-serif;
+h1 {
+    color: darkgreen;
+    text-align: left;
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
 }
