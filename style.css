@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(252, 243, 221);
 }
 
 h1 {
-    color: darkgreen;
+    color: darkslategray;
     text-align: left;
     font-size: 50px;
 }
@@ -14,5 +14,19 @@ p {
 }
 
 a {
-    color: teal
+    color: teal;
+}
+
+.note {
+    font-size: 20px;
+    color: dimgray;
+}
+
+.highlight {
+    background-color: rgb(255, 234, 0);
+}
+
+.demo-note {
+    color:darkslategrey;
+    background-color: rgb(253, 226, 184);
 }
