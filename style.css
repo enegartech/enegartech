@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: darkslategray;
+    color: rgb(0, 94, 94);
     text-align: left;
     font-size: 50px;
 }
@@ -23,10 +23,31 @@ a {
 }
 
 .highlight {
-    background-color: rgb(255, 234, 0);
+    background-color: rgb(255, 245, 135);
 }
 
 .demo-note {
     color:darkslategrey;
     background-color: rgb(253, 226, 184);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    border: 2px dashed teal;
+    padding: 15px;
+    margin: 30px;
+    background-color: white;
+}
+
+.main {
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+    border: 5px dashed teal;
+    padding: 15px;
+    margin: 30px;
+    background-color:rgb(253, 222, 171);
 }
