@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 h1 {
-    color: rgb(212, 0, 0);
+    color: blue;
     font-size: 50px;
     text-align: center;
 }
@@ -14,7 +15,7 @@ p {
 }
 
 a {
-    color: rgb(255, 0, 0);
+    color: blue;
 }
 
 .note {
@@ -23,18 +24,18 @@ a {
 }
 
 .highlight {
-    background-color: rgb(255, 190, 190);
+    background-color: darkblue;
 }
 
 .demo-note {
-    color:rgb(212, 0, 0);
-    background-color: rgb(255, 190, 190);
+    color:rgb(255, 255, 255);
+    background-color: darkblue;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .box {
-    border: 2px dashed rgb(212, 0, 0);
+    border: 2px solid blue;
     padding: 15px;
     margin: 30px;
     background-color: white;
@@ -44,16 +45,16 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-
+    background-color:rgb(0, 0, 0);
 }
 
 .card {
     text-align: center;
-    border: 5px dashed rgb(255, 0, 0);
+    border: 1px solid blue;
     padding: 15px;
     margin: 30px;
     background-color:rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer {
@@ -63,16 +64,16 @@ footer {
 
 .narrow {
     width: 300px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid blue;
 }
 
 .limited {
     max-width: 300px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid blue;
 }
 
 .centered {
-    border: 2px dashed rgb(255, 0, 0);
+    border: 2px solid blue;
     max-width:600px;
     margin: 0 auto;
 }
@@ -91,12 +92,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    padding: 10px;
-    border: 4px dashed rgb(255, 0, 0);
+    padding: 20px;
+    border: 1px solid blue;
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
 footer a {
-    color: darkred;
+    color: darkblue;
 }
+
