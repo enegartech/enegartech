@@ -61,11 +61,12 @@ main {
 .cards {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cards .card {
      margin: 0;
-     flex: 1;
+     flex: 1 1 250px;
 }
 
 footer {
@@ -94,7 +95,7 @@ nav ul {
     justify-content: center;
     gap: 20px; 
     list-style: none;
-    padding: 0;
+    padding: 0; 
 }
 
 nav a {
