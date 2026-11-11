@@ -142,4 +142,7 @@ header img {
     nav a {
         padding: 12px;
     }
+    header img {
+        width: 120px;
+    }
 }
