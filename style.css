@@ -135,6 +135,17 @@ header img {
     padding: 10px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #b6ff5c;
+    padding: 10px;
+    text-align: left;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 32px;
