@@ -146,6 +146,32 @@ th, td {
     text-align: left;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.tile {
+    border: 2px solid #b6ff5c;
+    padding: 20px;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 20px;
+}
+
+.skills li {
+    border: 2px solid #b6ff5c;
+    padding: 20px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 32px;
