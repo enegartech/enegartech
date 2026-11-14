@@ -1,12 +1,21 @@
+/*Variables*/
+:root {
+    --bg: #080d12;
+    --text: #f4f7f4;
+    --accent: #b6ff5c;
+    --surface: #101a19;
+}
+
+/*Base*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #080d12;
-    color: #f4f7f4;
+    background-color: var(--bg);
+    color: var(--text);
     line-height: 1.6;
 }
 
 h1 {
-    color: #b6ff5c;
+    color: var(--accent);
     font-size: 50px;
     text-align: center;
 }
@@ -16,12 +25,12 @@ p {
 }
 
 a {
-    color: #b6ff5c;
+    color: var(--accent);
 }
 
 .note {
     font-size: 20px;
-    color: #f4f7f4;
+    color: var(--text);
 }
 
 .highlight {
@@ -29,33 +38,34 @@ a {
 }
 
 .demo-note {
-    color: #f4f7f4;
+    color: var(--text);
     background-color: #1e4735;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .box {
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
     padding: 15px;
     margin: 30px;
-    background-color: #f4f7f4;
+    background-color: var(--text);
 }
 
+/*Layout*/
 main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background-color:#080d12;
+    background-color:var(--bg);
 }
 
 .card {
     text-align: center;
-    border: 1px solid #b6ff5c;
+    border: 1px solid var(--accent);
     padding: 15px;
     margin: 30px;
-    background-color:#101a19;
-    color: #f4f7f4;
+    background-color:var(--surface);
+    color: var(--text);
 }
 
 .cards {
@@ -76,20 +86,21 @@ footer {
 
 .narrow {
     width: 300px;
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
 }
 
 .limited {
     max-width: 300px;
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
 }
 
 .centered {
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
     max-width:600px;
     margin: 0 auto;
 }
 
+/*Components*/
 nav ul {
     display: flex;
     justify-content: center;
@@ -101,19 +112,19 @@ nav ul {
 nav a {
     text-decoration: none;
     padding: 20px;
-    border: 1px solid #b6ff5c;
-    background-color: #101a19;
-    color: #f4f7f4;
+    border: 1px solid var(--accent);
+    background-color: var(--surface);
+    color: var(--text);
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover, nav a:focus {
-    background-color: #b6ff5c;
-    color: #080d12;
+    background-color: var(--accent);
+    color: var(--bg);
 }
 
 footer a {
-    color: #b6ff5c;
+    color: var(--accent);
 }
 
 header img {
@@ -126,12 +137,12 @@ header img {
     gap: 20px;
     justify-content: space-between;
     height: 150px;
-    border: 3px solid #b6ff5c;
+    border: 3px solid var(--accent);
     align-items: flex-end;
 }
 
 .item {
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
     padding: 10px;
 }
 
@@ -141,7 +152,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #b6ff5c;
+    border: 1px solid var(--accent);
     padding: 10px;
     text-align: left;
 }
@@ -153,7 +164,7 @@ th, td {
 }
 
 .tile {
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
     padding: 20px;
     text-align: center;
 }
@@ -167,11 +178,12 @@ th, td {
 }
 
 .skills li {
-    border: 2px solid #b6ff5c;
+    border: 2px solid var(--accent);
     padding: 20px;
     text-align: center;
 }
 
+/*Responsive*/
 @media (max-width: 600px) {
     h1 {
         font-size: 32px;
